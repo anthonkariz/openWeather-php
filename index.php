@@ -19,7 +19,7 @@
     </div>
 
     <div class="container">
-        <form  class="row  gy-2 gx-2 align-items-center pt-4" method="POST" action="result.php">
+        <form  class="row  gy-2 gx-2 align-items-center pt-4" method="POST" action="results.php">
             <div class="col-md-10">
              
                 <input type="text" name="city" id="city" class="form-control" placeholder="Enter city name ">

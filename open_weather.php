@@ -34,6 +34,4 @@ public function show($city){
     
 }
 
-$open = new open_weather($token);
 
-$open->show('london');

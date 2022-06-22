@@ -1,2 +1,2 @@
 <?php 
-$token = 'Key here ';
+$token = '';
