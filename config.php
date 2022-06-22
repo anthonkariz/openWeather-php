@@ -1,0 +1,2 @@
+<?php 
+$token = 'Key here ';

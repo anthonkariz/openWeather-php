@@ -1,10 +1,14 @@
 <?php 
+
+include('config.php');
 class open_weather{
 
 private $api;
-private $token='4d592d1d68d22de221389ab70280c871'; // key 
-public function __construct()
+private $token=''; // key 
+public function __construct($token)
 {
+    $this->token = $token;
+
     $this->api = 'http://api.openweathermap.org/data/2.5/weather?units=metric';
 }
 
@@ -29,3 +33,7 @@ public function show($city){
 
     
 }
+
+$open = new open_weather($token);
+
+$open->show('london');
